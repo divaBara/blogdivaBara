@@ -1,5 +1,5 @@
 ---
-title: Krok do neznáma - a jak se vůbec nic nezměnilo
+title: Krok do neznáma - jak se vůbec nic nezměnilo
 lead: Portugalsko jsme si vybrali, protože se nám zalíbilo při našich atletických soustředěních, kdy jsme sem jezdívali do jižních částí. A také samozřejmě kvůli sluníčku a teplu i v zimních měsících...
 tags: [cestování, portugalsko]
 authors:
