@@ -14,7 +14,7 @@
   <div class="flex items-center space-x-4 leading-5 sm:space-x-6">
     @foreach (var item in menuItems)
     {
-      <NavLink ActiveClass="bg-rose-200 px-3 text-gray-800 py-2 rounded-3xl"
+      <NavLink ActiveClass="bg-rose-200 px-3 text-gray-800 py-2 rounded-4xl"
         class="hidden  tracking-wide  text-primary-700 sm:block"
         Match="@(item.Link == "" ? NavLinkMatch.All : NavLinkMatch.Prefix)" href="@item.Link">
         @((MarkupString)item.Name)
