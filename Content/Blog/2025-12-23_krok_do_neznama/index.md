@@ -1,5 +1,5 @@
 ---
-title: Krok do neznáma, a jak se vůbec nic nezměnilo.
+title: Krok do neznáma - a jak se vůbec nic nezměnilo
 lead: Portugalsko jsme si vybrali, protože...
 tags: [cestování, portugalsko]
 authors:
