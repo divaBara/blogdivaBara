@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/blogdivaBara/">
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display:ital@0;1&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Indie+Flower&family=Ledger&family=Parisienne&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: tailwind.colors.teal, // gives primary-50 ... primary-950
+          },
+          fontFamily: {
+            serifDisplay: ['"DM Serif Display"', 'serif'],
+            garamond: ['"EB Garamond"', 'serif'],
+            ledger: ['Ledger', 'serif'],
+            parisienne: ['Parisienne', 'serif'],
+            indie: ['Indie Flower', 'serif'],
+            edu: ['Edu AU VIC WA NT Pre', 'serif']
+          },
+        },
+      },
+    }
+  </script>
+
+  </head>
+
+<body class="bg-amber-50 font-sans text-gray-900"><div class="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0 "><div class="flex h-screen flex-col justify-between"><header class="flex items-center justify-between py-10"><div><a href><div class="flex items-center justify-between"><div class=" font-parisienne font-semibold sm:block font-extrabold text-transparent text-4xl  leading-[1.3] pb-1 bg-clip-text bg-gradient-to-r to-rose-500  from-pink-800">Div&#xE1; B&#xE1;ra minimal blog</div></div></a></div>
+  <div class="flex items-center space-x-4 leading-5 sm:space-x-6"><a href="" class="hidden  tracking-wide  text-primary-700 sm:block">Blog
+        </a><a href="tags" class="hidden  tracking-wide  text-primary-700 sm:block">Tagy
+        </a><button id="toggle-button" aria-label="Toggle Menu" class="sm:hidden"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-8 w-8 text-gray-100"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></button>
+    <div id="mobile-menu" class="fixed left-0 top-0 z-10 h-full w-full translate-x-full transform   duration-300 ease-in-out bg-gray-950 opacity-[0.98]"><div class="flex justify-end"><button id="close-mobile-menu-button" class="mr-8 mt-11 h-8 w-8" aria-label="Toggle Menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="text-gray-100"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></div>
+      <nav class="fixed mt-8 h-full"><div class="px-12 py-4"><a href="" class="text-2xl font-bold tracking-widest text-gray-100">Blog
+              </a></div><div class="px-12 py-4"><a href="tags" class="text-2xl font-bold tracking-widest text-gray-100">Tagy
+              </a></div></nav></div></div></header>
+<script>
+  //👎 but what can I do? It's a static html. I can't use C# here.
+  const toggleMobileMenu = () => document.querySelector('#mobile-menu').classList.toggle('translate-x-full');
+
+  document.querySelector('#toggle-button').addEventListener('click', toggleMobileMenu);
+  document.querySelector('#close-mobile-menu-button').addEventListener('click', toggleMobileMenu);
+</script>
+
+        <main class="mb-auto"><article><div class="xl:divide-y  xl:divide-gray-700"><header class="pt-6 xl:pb-6"><div class="space-y-1 text-center"><dl class="space-y-10"><div><dt class="sr-only">Published on</dt>
+            <dd class="text-base font-medium leading-6 text-gray-400"><time datetime="2025-12-23T00:00:00.000">23. pro 2025</time></dd></div></dl>
+        <div class="prose prose-invert mx-auto "><h1 class="font-garamond md:leading-14 text-3xl font-extrabold leading-9 tracking-tight text-primary-700 sm:text-4xl sm:leading-10 md:text-6xl">Prvn&#xED; m&#x11B;s&#xED;c v Portu.</h1></div></div></header>
+    <div class="   pb-8 divide-gray-700   xl:divide-y-0"><div class=" text-sm font-medium leading-5 divide-gray-700    xl:divide-y"><div class="py-4 xl:py-8"><h2 class="text-xs uppercase tracking-wide text-gray-400">Tags</h2>
+        <div class="flex flex-wrap "><a class="text-primary-600 hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="tags/cestov&#xE1;n&#xED;">cestov&#xE1;n&#xED;</a><a class="text-primary-600 hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="tags/portugalsko">portugalsko</a></div></div></div>
+      <div class="divide-y  divide-gray-700   xl:pb-0"><div class="prose prose-invert max-w-none text-neutral-800 font-ledger   "><p>Dost dobrodružné to bylo už při odletu. Na letišti jsme zjistili, že naše první letadlo z Česka do Bruselu má hodinu spoždění, což by znamenalo, že nestihneme ani to druhé na přestupu. Naštěstí nám paní od aerolinek stihla přebookovat letenky během pár minut, a tak jsme doběhli na letadlo, které nás místo do Bruselu dovezlo do Frankfurtu, a tam jsme přestoupili na let do naší cílové destinace. Do Porta jsme se tedy nakonec dostali ještě ten den, což ale neplatilo pro náš kufr. Ten byl totiž samozřejmě odbaven na let do Bruselu a tam také zůstal. Naštěstí jsme to celkem rychle vyřešili v kanceláři ztracených kufrů na portském letišti, a tak nám ho dovezli hned druhý den až před dveře. Před dveře našeho nového domova.</p>
+<p>Pro první měsíc jím byl malý pokojík ve sdíleném bytě u našeho portugalského hostitele Josého. To znamená, že jsme s Honzou existovali víceméně jen v tom jednom pokoji. Soukromí pro nás tedy existovalo tak na dvě hodiny denně, když se šel ten druhý projít nebo proběhnout. Měli jsme ještě docela štěstí, že majitel bytu tu netrávil příliš mnoho času, takže jsme se s ním přes den většinou zas tak moc nepotkávali a obývák s kuchyní byl tedy volný. Byli jsme omezení také jedním klíčem k domu a na můj vkus i horší hygienou. Pan José totiž vlastní 2–4 psy (ztratila jsem přehled v tom, kteří jsou jeho a kteří tu jen občas pobývají), takže chlupy a intenzivní smrad se linul všemi společnými prostory. Což znamená všude kromě našeho pokojíku, a to znamená, že i když byl obývák s kuchyní volný, trávila jsem tam minimum času.</p>
+<p>Ze začátku mi přišlo, že to ale zvládám dobře. Bylo nutné si zvyknout na jiné podmínky, a tak jsem si zvykla – časem i na pach starých pejsků. Byla jsem sama překvapená, jak dobře jsem to přijala a s novým prostředím se vyrovnala. Jsem totiž trochu rozmazlená holčička, která je zvyklá na určité životní standardy, a těžko snáším, když z nich musím slevit. Tady jsem to ale brala tak, že je to dočasné, a že se tomu tedy dokážu na tu omezenou dobu přizpůsobit. A tak to i skutečně bylo. Ovšem čím déle to trvalo, tím se to zdálo být náročnější.</p>
+<p>Zatím to vypadá, že jsem si tyhle záznamy začala vést jen proto, abych si mohla stěžovat. Tak to samozřejmě není a už se dostávám k těm hezkým a veselým zážitkům.
+Hned druhý den po příjezdu jsme na našich zapůjčených (a dost letitých) kolech od pana Josého vyrazili do centra Porta. Protože jsme první měsíc bydleli od centra poměrně daleko, stala se z toho nakonec celkem asi pětadvacetikilometrová jízda, navíc velkou část po kočičích hlavách. Celé tělo jsem měla vydrncáné a ještě u večeře se mi klepaly ruce, jak jsem je držela na vibrujících řídítkách. Důležité ale bylo, že jsme se dopravili. Kola jsme v centru zamkli ke stojanům v zastřešeném parkovišti, a to ještě hned vedle přístřešku hlídače parkoviště. Perfektní bezpečné místo, říkali jsme si. Pak jsme vyrazili trochu prozkoumat centro histórico. Prošli jsme pár obchodů a obešli pár kostelů, ale protože cesta zpět po kočičích hlavách bude dlouhá a náročná, za nedlouho jsme se vraceli pro kola. Náš hostitel nás varoval, ať kola v centru vždy zamykáme, což, jak jsem už psala, jsme svědomitě udělali. Takže kola tam stále byla, jen to Honzovo bylo trochu upravené – odlehčené o sedlo. Někomu se asi hodně zalíbilo, a tak ho prostě vytáhl a odnesl si ho. Koukali jsme se na prázdnou násadu a říkali si, jak asi Honza pojede těch mnoho kilometrů po kočičích hlavách domů.</p>
+<p>Naštěstí dojel, a bez větších potíží. Zdá se, že jeho fyzička účastníka olympiády konečně nese ovoce, protože tohle byl opravdu výkon. Já jsem se asi v půli cesty dobrosrdečně nabídla, že ho na chvíli vystřídám, aby nemusel jet celou tu dlouhou cestu ve stoje. Vydržela jsem to asi dvě minuty. A byly to dvě minuty hrozného utrpení a krkolomné jízdy, kdy jsem balancovala mezi pádem pod auto a pádem ze srázu. Ještě že tu mám za parťáka tak odolného Honzu, a po mém velice krátkém pokusu jsem mu mohla kolo bez sedla vrazit zpátky.
+Pár dnů po tomto uvítacím zážitku jsme jeli do centra znovu a jen tak z legrace jsme se zašli do onoho parkoviště podívat. Sedlo Josého kola tam bylo pěkně zastrčené do kola někoho jiného. A jsem si na 100 % jistá, že to bylo právě ono. Nejenže vypadalo úplně stejně, ale mělo i stejná škrábnutí a škody. Měla jsem sice chuť ho zase vytáhnout a odnést si ho, tak jak to předtím udělal jeho nynější majitel, ale neudělala jsem to. Stejně už jsme Josému koupili náhradní sedlo za 5 € a taky jsme se nechtěli zapojovat do válek portugalské cyklistické mafie.</p>
+<p>Mít k dispozici kola hned na začátku našeho pobytu bylo ale skvělé. Projeli jsme s nimi oba směry pobřeží, do Matosinhos i do Porta, kde na to byly cesty mnohem víc uzpůsobené než v centru. Jelikož jsme náš první měsíc bydleli hodně na okraji Porta, do města Matosinhos, které leží hned vedle, jsme to měli velmi blízko. Matosinhos je přístavní město a leží tu Leixões – jeden z hlavních přístavů celého Portugalska. Takhle velký průmyslový přístav jsem nikdy předtím neviděla a občas mě fascinovalo sledovat ohromné nákladní lodě s desítkami kontejnerů, jak připlouvají nebo odplouvají z přístavu.
+Lodě ale nebyly jediným dopravním velikánem, kterého jsme měli tu možnost si prohlédnout zblízka. Náš nový domov ležel totiž poblíž letiště, a tak nad ním prolétala letadla asi ve výšce 300 m nad zemí. Nejenže létala velmi nízko, ale také velmi často a dlouho do noci. Pan José říkal, že mají zakázáno létat po 23. hodině, ale všimla jsem si, že až tak striktně to nedodržují. Nevěřila bych, na co všechno si člověk zvykne, když musí, ale opravdu jsem si zvykla i na tohle. Doma mi obvykle při usínání vadí sebemenší hluk, ale tady jsem už třetí noc pokojně usínala s letadlem přímo nad hlavou.</p>
+<p>Mým nejoblíbenějším místem za první měsíc se stal Parque da Cidade, ke kterému jsme to měli asi jen kilometr. Je to nejkrásnější park, ve kterém jsem kdy byla. Je hodně rozlehlý, má spoustu krásných zákoutí a svažuje se od města až k pobřeží. A protože přírodu mám moc ráda a v metropoli, jako je Porto, jí moc nenajdete, chodila jsem tam téměř každý den. V tomto ohledu měl byt našeho hostitele ještě jedno maličké pozitivum.
+V Josého domě je jakási vnitřní zahrádka v patře. V přízemí je jen malý betonový dvoreček, ale do patra je zasazeno asi 15 metrů čtverečných půdy, které jsou součástí bytu. Náš hostitel tu má dokonce zasázené i palmičky… Nikdy jsem se tím nesetkala, ale za slunných dnů to bylo naše oblíbené místo v domě s kouskem přírody. Mám odsud také další vzpomínku, která mi vrací trochu škodolibý úsměv do tváře.
+Jedno obyčejné odpoledne jsem se prokázala jako správná česká keliška. Seděla jsem zrovna na téhle vnitřní zahrádce, když se na ulici pod domem rozjela parádní portugalská hádka. Hlasy z ulice nabíraly na intenzitě, a to už jsem kličkovala mezi psími bobky přes trávníček, abych se mohla pověsit na Josého palmičku a koukat přes zeď dolů. No jo, na ulici se pod schodištěm hádaly dvě portugalské holky. Střídavě štěkaly po sobě navzájem a po klukovi, který seděl na schodech naproti nim. Chudák dostával do kožichu. Měli ho, jak se říká, na paškále. Prostě si to pěkně slíznul. Střídavě jsem nakukovala přes zídku a chichotala se za zídkou. Samozřejmě jsem prd rozuměla, ale to nevadí: drama je drama, ať už mu rozumíte, nebo ne.
+Za nedlouho se na zahrádce objevil i Honza. Sdělila jsem mu, proč visím na Josého palmě, a že tam dole na ulici dostává nějaký chudák Portugalec sodu. Trochu jsem čekala, že Honza na mě protočí oči a důstojně si půjde po svém. Ukázalo se ale, že keliška nejsem jen já. Honza vystrčil ruku s mobilem přes zídku a pokusil se přeložit portugalskou telenovelu, která nám právě živě probíhala pod zahrádkou.
+Holky se hádaly o sedlo, které štíply na parkovišti v Portu.
+Dělám si legraci. Nic se nám přeložit nepovedlo.</p>
+<p>S koncem října přišel i konec našeho bydlení u Josého a my jsme se měli přesunout na nové místo. Říkala jsem si, že mi to tu snad nakonec bude i chybět. Náš hostitel je opravdu vychillovaný týpeček a nemá s ničím problém. Navíc musím přiznat, že žít v domě někoho úplně cizího byla skutečně zajímavá zkušenost. Dokonce myslím, že jsme byli dobří spolubydlící a náš hostitel si nás docela oblíbil. Za ten měsíc jsme byli dvakrát pozváni na večeři, kterou José sám uvařil. Jídlo, které připravil, obsahovalo třeba rybu, která za syrova smrdí dost podobně jako jeho starý pes. Tak jsem možná chudáku Kerberosovi (tak jsem jeho psa pojmenovala, jelikož jsem si nemohla zapamatovat jeho portugalské jméno) nakonec křivdila. Portugalci si také v obchodě koupí smažené bramborové lupínky (česky brambůrky) a považují je za plnohodnotnou přílohu. Když vám tedy někdo v Portugalsku řekne, že budete mít k večeři rybu a brambory, nedivte se hloupě, když jsou v rybí směsi zamíchané brambůrky. Musím ale říct, že i přesto, jak zvláštně to zní, jsem si vždy docela pochutnala. O něco méně jsem si pochutnala, když jsme na oplátku uvařili večeři s typickými českými pokrmy my s Honzou našemu hostiteli. On si ale nestěžoval, vlastně nás naopak dost chválil. Byl to vážně fajn týpek.</p>
+<p>Přínosy a uvědomění prvního měsíce v Portu:</p>
+<ul>
+<li>když je to nutné, zvykneš si téměř na všechno</li>
+<li>návyk je pevný teprve tehdy, když není závislý na „ideálních“ podmínkách a vybavení</li>
+<li>pokud ujedeš 12 km na kole bez sedla, máš na to dostat se na olympiádu</li>
+<li>nesuď jídlo podle obsahu</li>
+</ul>
+</div></div>
+      <footer><div class="pt-4 xl:pt-8"><a class="text-primary-600 hover:text-primary-300" aria-label="Back to the home" href>←
+            Zpět</a></div></footer></div></div></article></main>
+
+        <footer><div class="mt-16 flex flex-col items-center"><div class="mb-3 flex space-x-4"><a class="text-sm text-gray-500 transition hover:text-gray-600" target="_blank" rel="noopener noreferrer" href="https://github.com/BlazorStatic/BlazorStaticMinimalBlog"><span class="sr-only">github</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="hover:text-primary-400 h-6 w-6 fill-current text-gray-200"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></a>
+                    <a class="text-sm text-gray-500 transition hover:text-gray-600" target="_blank" rel="noopener noreferrer" href="https://x.com/"><span class="sr-only">x</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="hover:text-primary-400 h-6 w-6 fill-current text-gray-200"><path d="M 5.9199219 6 L 20.582031 27.375 L 6.2304688 44 L 9.4101562 44 L 21.986328 29.421875 L 31.986328 44 L 44 44 L 28.681641 21.669922 L 42.199219 6 L 39.029297 6 L 27.275391 19.617188 L 17.933594 6 L 5.9199219 6 z M 9.7167969 8 L 16.880859 8 L 40.203125 42 L 33.039062 42 L 9.7167969 8 z"></path></svg></a></div>
+                <div class="mb-2 flex space-x-2 text-sm text-gray-400"><a target="_blank" rel="noopener noreferrer" href="https://github.com/BlazorStatic/BlazorStatic"> Built with Blazor Static</a>
+                    <div>•</div>
+                    <div>© 2025</div></div></div></footer></div></div>
+        <blazor-focus-on-navigate selector="h1"></blazor-focus-on-navigate></body></html>
