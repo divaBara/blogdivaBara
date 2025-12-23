@@ -68,7 +68,7 @@ public static class WebsiteKeys
 {
   public const string GitHubRepo = "https://github.com/BlazorStatic/BlazorStaticMinimalBlog";
   public const string X = "https://x.com/";
-  public const string Title = "Divá Bára minimal blog";
+  public const string Title = "Divá Bára blog";
   public const string BlogPostStorageAddress = $"{GitHubRepo}/tree/main/Content/Blog";
   public static CultureInfo DateCultureInfo => new("cs-CZ");
   public const string DateFormat = "d. MMM yyyy";
