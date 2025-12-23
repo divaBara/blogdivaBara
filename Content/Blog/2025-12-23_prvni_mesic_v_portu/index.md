@@ -1,6 +1,6 @@
 ---
 title: První měsíc v Portu.
-lead: Dost dobrodružné to bylo už při odletu. Na letišti jsme zjistili, že naše první letadlo z Česka do Bruselu má hodinu spoždění, což by znamenalo, že nestihneme ani to druhé na přestupu. Naštěstí nám paní od aerolinek stihla přebookovat letenky během pár minut, a tak jsme doběhli na letadlo, které nás místo do Bruselu dovezlo do Frankfurtu, a tam jsme přestoupili na let do naší cílové destinace. Do Porta jsme se tedy nakonec dostali ještě ten den, což ale neplatilo pro náš kufr.
+lead: Dost dobrodružné to bylo už při odletu. Na letišti jsme zjistili, že naše první letadlo z Česka do Bruselu má hodinu spoždění, což by znamenalo, že nestihneme ani to druhé na přestupu. Naštěstí nám paní od aerolinek stihla přebookovat letenky...
 tags: [cestování, portugalsko]
 authors:
     - name: "Bára"
