@@ -4,35 +4,40 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BlazorStaticMinimalBlog.Components;
+using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.WebHost.UseStaticWebAssets();
 
-builder.Services.AddBlazorStaticService(opt => {
-    //opt. //check to change the defaults
+builder.Services.AddBlazorStaticService(opt =>
+{
+  //opt. //check to change the defaults
 
-    // opt.ShouldGenerateSitemap = true; //add this if you want sitemap.xml to be genedated
-    //opt.SiteUrl = "https://BlazorStatic.net; //add your url
+  // opt.ShouldGenerateSitemap = true; //add this if you want sitemap.xml to be genedated
+  //opt.SiteUrl = "https://BlazorStatic.net; //add your url
 
-    // opt.IgnoredPathsOnContentCopy.Add("file-in-wwwroot-that-i-dont-want"); //e.g. pre-build css
-    // opt.PagesToGenerate.Add(new PageToGenerate("the/url/to/request", "file/to/generate")); // add pages that BlazorStatic cannot discover (usually the pages without md file)
+  // opt.IgnoredPathsOnContentCopy.Add("file-in-wwwroot-that-i-dont-want"); //e.g. pre-build css
+  // opt.PagesToGenerate.Add(new PageToGenerate("the/url/to/request", "file/to/generate")); // add pages that BlazorStatic cannot discover (usually the pages without md file)
 }
 )
-.AddBlazorStaticContentService<BlogFrontMatter>(opt => {
-    // modify blog post before they are genedated to html
-    // opt.AfterContentParsedAndAddedAction = (service, contentService) => {
-    //     contentService.Posts.ForEach(post => {
-    //         post.Url = $"{post.Url}-nice"; // add nice to every url
-    //         post.FrontMatter.Published = DateTime.Now; //change post metadata
-    //     });
-    // };
+       .AddBlazorStaticContentService<BlogFrontMatter>(opt =>
+       {
 
-    // opt.PageUrl = "my-blog"; // if you need to change the resulting url. Defaut is "blog"
-    // opt.ContentPath = "MyContent/Posts"; // where resides your blog posts?
-
-
-}) //
+         opt.AfterContentParsedAndAddedAction = (service, contentService) =>
+         {
+           contentService.Posts.ForEach(post =>
+           {
+             if (post.Url.Split('_', 2) is [var datePart, var rest]
+                 && DateTime.TryParseExact(datePart, "yyyy-MM-dd", CultureInfo.InvariantCulture,
+                 DateTimeStyles.None, out var published))
+             {
+               post.FrontMatter.Published = published;
+             }
+           });
+           service.Options.PagesToGenerate.ForEach(page => { });
+         };
+       }) //
 // .AddBlazorStaticContentService<MyFrontMatter>() // any other "content section" on your page with a differet FrontMatter? For example /projects
 ;
 
@@ -41,11 +46,11 @@ builder.Services.AddRazorComponents();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if(!app.Environment.IsDevelopment())
+if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+  app.UseExceptionHandler("/Error", createScopeForErrors: true);
+  // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+  app.UseHsts();
 }
 
 app.UseHttpsRedirection();
@@ -61,9 +66,10 @@ app.Run();
 
 public static class WebsiteKeys
 {
-    public const string GitHubRepo = "https://github.com/BlazorStatic/BlazorStaticMinimalBlog";
-    public const string X = "https://x.com/";
-    public const string Title = "BlazorStatic Minimal Blog";
-    public const string BlogPostStorageAddress = $"{GitHubRepo}/tree/main/Content/Blog";
-    public const string BlogLead = "Sample blog created with BlazorStatic and TailwindCSS";
+  public const string GitHubRepo = "https://github.com/BlazorStatic/BlazorStaticMinimalBlog";
+  public const string X = "https://x.com/";
+  public const string Title = "Divá Bára minimal blog";
+  public const string BlogPostStorageAddress = $"{GitHubRepo}/tree/main/Content/Blog";
+  public static CultureInfo DateCultureInfo => new("cs-CZ");
+  public const string DateFormat = "d. MMM yyyy";
 }
