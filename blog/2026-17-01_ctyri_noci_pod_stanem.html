@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/blogdivaBara/">
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display:ital@0;1&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Indie+Flower&family=Ledger&family=Parisienne&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: tailwind.colors.teal, // gives primary-50 ... primary-950
+          },
+          fontFamily: {
+            serifDisplay: ['"DM Serif Display"', 'serif'],
+            garamond: ['"EB Garamond"', 'serif'],
+            ledger: ['Ledger', 'serif'],
+            parisienne: ['Parisienne', 'serif'],
+            indie: ['Indie Flower', 'serif'],
+            edu: ['Edu AU VIC WA NT Pre', 'serif']
+          },
+        },
+      },
+    }
+  </script>
+
+  </head>
+
+<body class="bg-emerald-50 font-sans text-gray-900"><div class="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0 "><div class="flex h-screen flex-col justify-between"><header class="flex items-center justify-between py-10"><div><a href><div class="flex items-center justify-between"><div class=" font-parisienne font-semibold sm:block font-extrabold text-transparent text-4xl  leading-[1.3] pb-1 bg-clip-text bg-gradient-to-r to-rose-500  from-pink-800">Div&#xE1; B&#xE1;ra blog</div></div></a></div>
+  <div class="flex items-center space-x-4 leading-5 sm:space-x-6"><a href="" class="hidden  tracking-wide  text-primary-700 sm:block">Blog
+        </a><a href="tags" class="hidden  tracking-wide  text-primary-700 sm:block">Tagy
+        </a><button id="toggle-button" aria-label="Toggle Menu" class="sm:hidden"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-8 w-8 text-gray-100"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></button>
+    <div id="mobile-menu" class="fixed left-0 top-0 z-10 h-full w-full translate-x-full transform   duration-300 ease-in-out bg-gray-950 opacity-[0.98]"><div class="flex justify-end"><button id="close-mobile-menu-button" class="mr-8 mt-11 h-8 w-8" aria-label="Toggle Menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="text-gray-100"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></div>
+      <nav class="fixed mt-8 h-full"><div class="px-12 py-4"><a href="" class="text-2xl font-bold tracking-widest text-gray-100">Blog
+              </a></div><div class="px-12 py-4"><a href="tags" class="text-2xl font-bold tracking-widest text-gray-100">Tagy
+              </a></div></nav></div></div></header>
+<script>
+  //👎 but what can I do? It's a static html. I can't use C# here.
+  const toggleMobileMenu = () => document.querySelector('#mobile-menu').classList.toggle('translate-x-full');
+
+  document.querySelector('#toggle-button').addEventListener('click', toggleMobileMenu);
+  document.querySelector('#close-mobile-menu-button').addEventListener('click', toggleMobileMenu);
+</script>
+
+        <main class="mb-auto"><article><div class="xl:divide-y  xl:divide-gray-700"><header class="pt-6 xl:pb-6"><div class="space-y-1 text-center"><dl class="space-y-10"><div><dt class="sr-only">Published on</dt>
+            <dd class="text-base font-medium leading-6 text-gray-400"><time datetime="2026-01-16T15:23:52.883&#x2B;00:00">16. led 2026</time></dd></div></dl>
+        <div class="prose prose-invert mx-auto "><h1 class="font-garamond md:leading-14 text-3xl font-extrabold leading-9 tracking-tight text-emerald-800 sm:text-4xl sm:leading-10 md:text-6xl">&#x10C;ty&#x159;i noci pod stanem</h1></div></div></header>
+    <div class="   pb-8 divide-gray-700   xl:divide-y-0"><div class=" text-sm font-medium leading-5 divide-gray-700    xl:divide-y"><div class="py-4 xl:py-8"><h2 class="text-xs uppercase tracking-wide text-gray-400">Tags</h2>
+        <div class="flex flex-wrap "><a class="text-primary-600 hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="tags/cestov&#xE1;n&#xED;">cestov&#xE1;n&#xED;</a><a class="text-primary-600 hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="tags/portugalsko">portugalsko</a></div></div></div>
+      <div class="divide-y  divide-gray-700   xl:pb-0"><div class="prose prose-invert max-w-none text-neutral-800 font-ledger   "><p>Listopad začal výpravou do kempu na úplném severu Portugalska, kde jsme strávili čtyři noci pod stanem. Při plánování našeho výjezdu došlo totiž k takovému drobnému nedopatření, že mezi termíny prvního a druhého ubytování byly čtyři plonkové noci. Naštěstí jsme už první týden v Portu potkali novou česko-portskou kamarádku Páju, která sama kempování měla moc ráda, a vyřešit tyhle dny bez střechy nad hlavou stanem byl vlastně její nápad. Navíc byla tak báječná, že nám napůjčovala vše, co jsme potřebovali. A tak jsme její velkorysost přijali. Své kufry jsme nechali na čtyři dny kempovat u Páji v kumbálu a my sami se vydali s plnou polní kempařskou vlakem do městečka Moledo. Pájin stan byl spíš takový plachtový palác, takže se společně s nafukovacími karimatkami, spacáky a tou troškou našich osobních věcí docela pronesl. Naštěstí to z vlakového nádraží v Moledu bylo do kempu jen necelé 3 kilometry, takže jsem to přijala jako další osobní výzvu. Šlapala jsem tak dlouho, dokud jsem dva batohy neshodila v recepci kempu.</p>
+<p><img src="Content/Blog/2026-17-01_ctyri_noci_pod_stanem/media/bhk.jpg" alt="s plnou polní kempařskou" /></p>
+<p>Pro mě to byl velký a nový zážitek. Nikdy dřív jsem neexistovala několik dnů v kuse jen pod plachtou. Jsem na tohle trochu citlivka – společné sprchy s betonovou podlahou? Fuj. Jezení z jednoho ešusu? Fuj. Sezení na plachtě, která je celá od písku a bláta? Fuj. Ke svému údivu jsem to ale opět zvládala dobře a velmi rychle si zvykla. V pojídání fazolí s párkem z jednoho ešusu jsem dokonce našla zálibu. Už jsem si začala plánovat, co vše si také musím pořídit, abych tyhle výlety mohla opakovat pravidelněji. Kemp leží hned u pobřeží, opravdu na samém konci Portugalska. Přes řeku Rio Minho ústící do moře, je vidět přímo na Španělsko (pokud zrovna není mlha – a ta byla na podzim často). Pobřeží je porostlé krásným borovým lesíkem a v okolí je spoustu zelených kopců. Opravdu tam bylo krásně. Tedy až na poslední noc, která byla přímo děsivá a mou novou zálibu v kempování zase trochu podryla.</p>
+<p>Jelikož se kemp nachází na severu a přímo u pobřeží, jdou sem od Atlantiku silné poryvy větru a s nimi často také bouřky. Přesně takové počasí mělo přijít i poslední noc našeho kempařského dobrodružství. Byla to asi daň za krásné počasí a klidné noci, na které jsme měli štěstí všechny ostatní dny. Každopádně jsme to z předpovědi zjistili dost dopředu, a tak se strhla menší bouře i mezi mnou a Honzou. Jejím spouštěčem byl můj požadavek zabalit stan a na poslední noc si doplatit bungalov, který v kempu také pronajímají a který, na rozdíl od našeho krásného propůjčeného stanu, nemůže jen tak uletět. Honza ale tvrdil, že utíkat jako tramp před počasím a vzdát stanování jen kvůli dešti a větru je srabáctví. Protože jsem protivná fňukna a Honza má měkké srdce, podařilo se mi, s přihlédnutím na předpověď 75 km/h silného větru a 15 mm srážek, prosadit svou, a šla jsem nám domluvit bungalov. Jelikož jsem ale v jádru také dobrodruh, a navíc celý den byl krásný a slunečný, nakonec jsem z bungalovu ustoupila a dohodli jsme se, že si stan pořádně zajistíme a upevníme – balvany a provázky – a riskneme to. Paní z recepce kempu, které jsem šla později říct, že jsme si to nakonec rozmysleli, si o nás musela myslet, že jsme praštění blázni, anebo minimálně něčím praštění budeme po téhle noci ve stanu.</p>
+<p>Noc byla opravdu divoká a já byla chvílemi vzteky běsná a chvílemi strachy uplakaná. Nejprve přišel silný vítr, který zmítal stanem tak, že se třepal jako igelitový pytlík. I v téhle děsivé situaci měl Honza odvahu se mi zasmát, když jsem se rozhodla v nejhorších větrných nárazech rukama podpírat střechu stanu zevnitř. Jen co se vítr trochu uklidnil, začalo silně pršet. Bála jsem se, že nám do předsíňky, která nebyla celistvě uzavřená a jejíž podlaha byla v podstatě jen plachta položená na zemi, poteče voda. A protože jsme měli v předsíňce většinu svých věcí, přesunuli jsme si některé do spací místnosti stanu a některé jsme naskládali na židli, kterou jsem si bez dovolení, ale zcela sebejistě, půjčila u jednoho z bungalovů. Přesto jsem nechtěla, aby nám do stanu proudila voda a my ho pak vezli zpět Páje promočený i zevnitř. Několikrát za noc jsem měla pocit, že slyším, jak se proud vody prolévá stanem, a vystrčenou rukou ze spací místnosti do předsíňky jsem to kontrolovala, ačkoliv netuším, co bych dělala, kdyby nám tam voda opravdu tekla. Naštěstí jsem se ale pletla a stan zůstal zevnitř úplně suchý. Pak už přišlo jen pár hromů a blesků, jež následovaly moje zděšené výkřiky, a vše bylo za námi. Ráno dokonce i na chvíli přestalo pršet, a tak jsme stan rychle sbalili, trochu vysušili ručníkem a nechali se odubrovat (≈ odvézt ubrem) na vlakové nádraží.
+Aby to ale zase nebylo jen vyprávění nejhrůznějších zážitků, musím napsat, že kromě téhle naší poslední noci byl čas v kempu asi tím nejlepším z celých tří měsíců v Portugalsku. V té době jsem se zatoužila sportovně trochu přeorientovat a začít běhat dlouhé tratě po horách a lesích. Tady jsme k tomu měli ideální příležitost, a tak jsme se jí hned druhý den chopili. Zkušený mapař Honza naplánoval 20kilometrovou trať v okolí přes jeden z těch krásných, lesem pokrytých kopců, kterou bylo možné i zkrátit, kdyby došlo na nesnesitelné kňourání. Pak běžel se mnou s telefonem v ruce, aby mi mou novou zkušeností udělal průvodce. Bylo to skvělé a moc jsem si to užívala, především prvních 10 kilometrů. Po jedenáctém na mě dopadala trochu krize, což bylo zajímavé, jelikož už jsem předtím uběhla 15 km trasu a takovou únavu jsem nepociťovala ani ke konci. Pravděpodobně se únava dostavila dřív, protože terén byl nejen hodně kopcovitý, ale částmi také těžce probroditelný, a tak jsem si z cesty donesla i pěkně poškrábané nohy. Protože mi ale nic jiného nezbývalo, a taky protože kromě bolavých nohou to bylo báječné, jsem celou trať doběhla a byla jsem za to na sebe nesmírně pyšná. Ležet si pak ve spacáku a cpát se fazolemi bylo o to příjemnější.
+<img src="Content/Blog/2026-17-01_ctyri_noci_pod_stanem/media/bezim.jpg" alt="20 km v kopcích" />
+<img src="Content/Blog/2026-17-01_ctyri_noci_pod_stanem/media/po_behu_dzungli.jpg" alt="po běhu v džungli" /></p>
+<p>Den po mém novém osobáku v uběhnuté vzdálenosti jsme se vlakem vydali na výlet do města Viana do Castelo. Tenhle výlet byl, dá se říct, mou povinností, jelikož je to druhý domov mé nejlepší kamarádky. My jsme ale bohužel byli z předchozího dobrodružství tak vyčerpaní, že jsme město neprozkoumali ani zdaleka tak, jak by si zasloužilo. Především krásný chrám na kopci Mount of Santa Luzia mě zamrzel. Víc jsme prozkoumali město Caminha, které bylo kousek od našeho kempu a je důležitou součástí Svatojakubské poutní cesty, zejména pro Portugalce. Všude v městečku jsme naráželi na značky mušliček, které poutníky při téhle cestě provází, a také na přemrštěné ceny, které poutníky připravují o peníze – což bude asi hlavní duchovní očistou této poutě. I tohle městečko bylo obyčejné, hezké, ale ničím výjimečné, pokud si v něm sami nějakou silnou a výjimečnou vzpomínku nevytvoříte. Protože jen to dělá cestování tak báječným a obohacujícím.
+<img src="Content/Blog/2026-17-01_ctyri_noci_pod_stanem/media/caminho.jpg" alt="Caminho" />
+<img src="Content/Blog/2026-17-01_ctyri_noci_pod_stanem/media/plaz.jpg" alt="španělský kopec z portugalského břehu" /></p>
+</div></div>
+      <footer><div class="pt-4 xl:pt-8"><a class="text-primary-600 hover:text-primary-300" aria-label="Back to the home" href>←
+            Zpět</a></div></footer></div></div></article></main>
+
+        <footer><div class="mt-16 flex flex-col items-center"><div class="mb-3 flex space-x-4"><a class="text-sm text-gray-500 transition hover:text-gray-600" target="_blank" rel="noopener noreferrer" href="https://github.com/BlazorStatic/BlazorStaticMinimalBlog"><span class="sr-only">github</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="hover:text-primary-400 h-6 w-6 fill-current text-gray-200"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></a>
+                    <a class="text-sm text-gray-500 transition hover:text-gray-600" target="_blank" rel="noopener noreferrer" href="https://x.com/"><span class="sr-only">x</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="hover:text-primary-400 h-6 w-6 fill-current text-gray-200"><path d="M 5.9199219 6 L 20.582031 27.375 L 6.2304688 44 L 9.4101562 44 L 21.986328 29.421875 L 31.986328 44 L 44 44 L 28.681641 21.669922 L 42.199219 6 L 39.029297 6 L 27.275391 19.617188 L 17.933594 6 L 5.9199219 6 z M 9.7167969 8 L 16.880859 8 L 40.203125 42 L 33.039062 42 L 9.7167969 8 z"></path></svg></a></div>
+                <div class="mb-2 flex space-x-2 text-sm text-gray-400"><a target="_blank" rel="noopener noreferrer" href="https://github.com/BlazorStatic/BlazorStatic"> Built with Blazor Static</a>
+                    <div>•</div>
+                    <div>© 2026</div></div></div></footer></div></div>
+        <blazor-focus-on-navigate selector="h1"></blazor-focus-on-navigate></body></html>
