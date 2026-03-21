@@ -1,6 +1,6 @@
 ---
-title: První měsíc v Portu
-lead: Dost dobrodružné to bylo už při odletu. Na letišti jsme zjistili, že naše první letadlo z Česka do Bruselu má hodinu spoždění, což by znamenalo, že nestihneme ani to druhé na přestupu. Naštěstí nám paní od aerolinek stihla přebookovat letenky...
+title: Druhý měsíc v Portu
+lead: Na sluníčko, které sice občas na pár minut vylezlo, ale kdykoli mohlo být velmi rychle smeteno dešťovým mrakem, nemělo smysl čekat. Rozhodli jsme se tedy, že se v listopadu začleníme více do společnosti. Stalo se nejednou, že jsme se na meetup přihlásili a byli jsme jediní, kdo se dostavil. Možná jsme jen nepochopili portugalskou orientaci v čase. ...
 tags: [cestování, portugalsko]
 authors:
     - name: "Bára"
