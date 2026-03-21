@@ -6,7 +6,6 @@ authors:
     - name: "Bára"
      
 ---
-Druhý měsíc v Portu
 
 Poté, co jsme si prvních pár dnů listopadu zpestřili kempováním v krásném severu Portugalska, jsme se zase vrátili do Porta. Náš život v jihoevropském městě měl teď nabrat ten správný cestovatelský směr – alespoň jsem si to myslela. Pro druhý měsíc jsme si našli velmi maličký byt na pobřeží. Moc jsme se těšili, až budeme chodit každé ráno na pláž, protože to k ní bylo jen pár minut pěšky. Plánovali jsme, že se u moře budeme každé ráno při východu slunce protahovat. První měsíc jsem strečink úplně vyšidila, ale tentokrát mě pláž, sluníčko a mořské vlny určitě dostatečně namotivují.
 
