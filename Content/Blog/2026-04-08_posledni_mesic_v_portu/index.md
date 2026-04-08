@@ -22,7 +22,7 @@ Ubytování pro náš poslední měsíc jsme našli v činžáku na křižovatce
 Centrum Porta bylo v prosinci opravdu bohatě vánočně nazdobené. Pro mě ale tenhle měsíc nebyl vůbec sváteční. Vánoční období mě neovlivnilo, tedy až na to, že se mi začalo trochu stýskat. Už během prvního prosincového týdne jsem si uvědomila, že je to vůbec poprvé, co se mi tu opravdu stýská. Je to zvláštní, ale když jsem už od začátku věděla, že je moje odloučení jen dočasné, stesk po domově se dlouho neprojevoval. V prosinci jsem měla svátek a mamka mi nechala doručit krásnou kytičku. Když jsem se v bytě probírala hrnci a miskami, abych našla to, co z dostupných kusů nádobí nejvhodněji nahradí vázu, vzpomínala jsem, kolik lidí, kterým na mě záleží, jsem doma zanechala.
 
 <figure style="display: flex; flex-direction: column; align-items: center; text-align:center; gap: 0.5em;">
-  <img src="media/vanoce vyzdoba.jpegvanoce vyz" alt="porto">
+  <img src="media/vanoce vyzdoba.jpeg" alt="porto">
 </figure>
 
 Ačkoli pro nás vánoční období zapadlo mezi běžné dny, můj portugalský šéf se hodil do prázdninového módu hned začátkem prosince. Tedy, ne že by to jiné měsíce bylo v mé portugalské práci nějak žhavé. Ovšem v prosinci pracovní nasazení téměř vyhaslo. Jeden prosincový den probíhala v Portugalsku celonárodní stávka státních služeb. Nejezdila tedy hromadná doprava a byly zavřené úřady. Ačkoliv můj šéf je podnikatel a státní stávka by se ho nejspíš nemusela téměř dotknout, rozhodl se k ní přidat a také nepracovat. Možná jsem se neměla ostýchat zeptat, proč nepracoval, když není řidičem tramvaje, a dozvěděla bych se něco zajímavého.
