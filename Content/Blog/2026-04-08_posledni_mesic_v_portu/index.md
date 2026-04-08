@@ -21,9 +21,7 @@ Ubytování pro náš poslední měsíc jsme našli v činžáku na křižovatce
 
 Centrum Porta bylo v prosinci opravdu bohatě vánočně nazdobené. Pro mě ale tenhle měsíc nebyl vůbec sváteční. Vánoční období mě neovlivnilo, tedy až na to, že se mi začalo trochu stýskat. Už během prvního prosincového týdne jsem si uvědomila, že je to vůbec poprvé, co se mi tu opravdu stýská. Je to zvláštní, ale když jsem už od začátku věděla, že je moje odloučení jen dočasné, stesk po domově se dlouho neprojevoval. V prosinci jsem měla svátek a mamka mi nechala doručit krásnou kytičku. Když jsem se v bytě probírala hrnci a miskami, abych našla to, co z dostupných kusů nádobí nejvhodněji nahradí vázu, vzpomínala jsem, kolik lidí, kterým na mě záleží, jsem doma zanechala.
 
-<figure style="display: flex; flex-direction: column; align-items: center; text-align:center; gap: 0.5em;">
-  <img src="media/vanoce vyzdoba.jpeg" alt="porto">
-</figure>
+![alt text](<media/vanoce vyzdoba.jpeg>)
 
 Ačkoli pro nás vánoční období zapadlo mezi běžné dny, můj portugalský šéf se hodil do prázdninového módu hned začátkem prosince. Tedy, ne že by to jiné měsíce bylo v mé portugalské práci nějak žhavé. Ovšem v prosinci pracovní nasazení téměř vyhaslo. Jeden prosincový den probíhala v Portugalsku celonárodní stávka státních služeb. Nejezdila tedy hromadná doprava a byly zavřené úřady. Ačkoliv můj šéf je podnikatel a státní stávka by se ho nejspíš nemusela téměř dotknout, rozhodl se k ní přidat a také nepracovat. Možná jsem se neměla ostýchat zeptat, proč nepracoval, když není řidičem tramvaje, a dozvěděla bych se něco zajímavého.
 
@@ -33,8 +31,8 @@ My jsme alespoň měli proctor udělat si v prodinci víc výletů.
 Poprvé jsme vyjeli na túru do Sobreiry, odkud jsme došli 26kilometrovou trasou do Valonga a odtamtud zase vlakem zpět do Porta. Cesta vedla nejprve eukalyptovými lesy. Dočetla jsem se, že eukalyptus se v Portugalsku používá především pro výrobu papíru, což jsme si podle jeho pronikavé vůně vůbec netipovali. Každopádně je to také rozpínavá potvora, která se hodně rychle šíří, a tak nás stromy doprovázely téměř celou cestu. V části túry jsme procházeli také přes úplně zčernalé kopce, celé spálené a pokryté ohořelými pahýly kmenů. Napadlo mě, jestli tohle zemědělci nedělají naschvál, aby se zbavili eukalyptu. Naše portská kamarádka nám ale vyprávěla o požárech, které tu v létě dost často krajinu sužují. Bylo to jako procházet krajinou v nějakém apokalyptickém scénáři.
 
 ![alt text](media/valongo.PNG)
-![alt text](<media/vylet 1 (Střední).jpeg>)
-![alt text](<media/spalenina (Střední).jpeg>)
+![alt text](<media/vylet 1.jpeg>)
+![alt text](media/spalenina.jpeg)
 
 Další apokalyptický scénář jsem si prožila, když jsme se vrátili do Valonga podruhé. Jelikož jsem si po své první uběhnuté dvacítce předsevzala, že budu tuhle šílenost podstupovat pravidelně každý měsíc, naplánoval Honza další krásnou trasu v portugalských kopcích - právě ve Valongu. Trasa to byla vskutku krásná, jen trochu nad moje síly. Šplhání přes balvany a sbíhání skal jsem nezvládala úplně udýchat ani ustát. Když jsem doškobrtala na konec trasy, zjistili jsme, že vlak, kterým jsme původně doufali odjet domů, nestihneme. Nepřekvapivě jsem se totiž kňourala, že další kilometr a půl na vlak neběžím. Na druhou stranu se sama sebe musím tentokrát zastat, protože jsem si připadala jako účastník z filmu The Long Walk a raději se nechala zastřelit, než abych svoje nohy nutila k dalším kilometrům.
 Protože sluníčko ještě ani zdaleka nehřálo natolik, aby se člověk mohl spotit jako prase a pak čekat hodinu a půl na vlak, šli jsme se ohřát a občerstvit na benzínku. Proč zrovna tam, a ne raději do nějaké kavárny? No, nebylo to jen kvůli tomu, že jsme byli zpocení jako prasata, ale především proto, že bylo 25. 12. Tedy první svátek vánoční, a to znamená, že všechno kromě benzínek bylo zavřeno. Po tu dobu, co jsme tam strávili, se ale dveře netrhly. Portugalci si chodili kupovat losy. Ty jsou tu nejspíš vánoční tradice a lidé doufají v zázraky. Největší výhrou, jaká se udála 25. 12. o Vánocích roku 2025 na benzínce ve Valongu, byla suma přesné ceny losu, a ta byla okamžitě směněna za los další. Z toho už bylo klasické prd.
