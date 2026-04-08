@@ -11,7 +11,7 @@ Druhý měsíc našeho portugalského dobrodružství se převalil jako vlna z A
 <figure style="display: flex; flex-direction: column; align-items: center; text-align:center; gap: 0.5em;">
   <img src="media/porto most.jpeg" alt="porto">
   <figcaption>
-Porto most
+Ponte de Luis 
   </figcaption>
 </figure>
 
@@ -23,9 +23,6 @@ Centrum Porta bylo v prosinci opravdu bohatě vánočně nazdobené. Pro mě ale
 
 <figure style="display: flex; flex-direction: column; align-items: center; text-align:center; gap: 0.5em;">
   <img src="media/vanoce vyzdoba.jpegvanoce vyz" alt="porto">
-  <figcaption>
-Porto most
-  </figcaption>
 </figure>
 
 Ačkoli pro nás vánoční období zapadlo mezi běžné dny, můj portugalský šéf se hodil do prázdninového módu hned začátkem prosince. Tedy, ne že by to jiné měsíce bylo v mé portugalské práci nějak žhavé. Ovšem v prosinci pracovní nasazení téměř vyhaslo. Jeden prosincový den probíhala v Portugalsku celonárodní stávka státních služeb. Nejezdila tedy hromadná doprava a byly zavřené úřady. Ačkoliv můj šéf je podnikatel a státní stávka by se ho nejspíš nemusela téměř dotknout, rozhodl se k ní přidat a také nepracovat. Možná jsem se neměla ostýchat zeptat, proč nepracoval, když není řidičem tramvaje, a dozvěděla bych se něco zajímavého.
@@ -34,6 +31,7 @@ Tohle jsem si ale nejspíš mohla uvědomit už dřív. Zprvu jsem nedala na př
 
 My jsme alespoň měli proctor udělat si v prodinci víc výletů.
 Poprvé jsme vyjeli na túru do Sobreiry, odkud jsme došli 26kilometrovou trasou do Valonga a odtamtud zase vlakem zpět do Porta. Cesta vedla nejprve eukalyptovými lesy. Dočetla jsem se, že eukalyptus se v Portugalsku používá především pro výrobu papíru, což jsme si podle jeho pronikavé vůně vůbec netipovali. Každopádně je to také rozpínavá potvora, která se hodně rychle šíří, a tak nás stromy doprovázely téměř celou cestu. V části túry jsme procházeli také přes úplně zčernalé kopce, celé spálené a pokryté ohořelými pahýly kmenů. Napadlo mě, jestli tohle zemědělci nedělají naschvál, aby se zbavili eukalyptu. Naše portská kamarádka nám ale vyprávěla o požárech, které tu v létě dost často krajinu sužují. Bylo to jako procházet krajinou v nějakém apokalyptickém scénáři.
+
 ![alt text](media/valongo.PNG)
 ![alt text](<media/vylet 1.jpeg>)
 ![alt text](media/spalenina.jpeg)
@@ -44,11 +42,12 @@ Protože sluníčko ještě ani zdaleka nehřálo natolik, aby se člověk mohl 
 Ani naše Vánoce nebyly ničím zázračné. Vánoce ve dvou byly poněkud smutné, a tak jsme si alespoň udělali další výlet  vlakem. Přijeli jsme do Espinha a odtud podle moře pěšky zpět do Porta. Cesta po pláži byla z velké části vystavěná dřevěným lešením. S drobným přerušováním nás provázely tyhle lávky asi 10 km celé trasy. Odpoledne, když jsme došli do Porta, jsme už byli pěkně hladoví. Ve výloze jedné pekárny jsme si vyhlídli veliký tradiční žloutkový koláč.  A protože hladové břicho klame mysl,  koupili jsme si ho. Žloutkový koláč, portugalsky Pão de Ló, chutnal jako žloutky s cukrem. To je mi ale překvápko. Přesně to totiž je. Dlouho šlehaná vejce, převážně žloutky, se spoustou cukru a trochou mouky. Možná by mi to i chutnalo, kdybych už žloutků za ty tři měsíce neměla dost. Také jsme se chtěli připojit k půlnoční mši. Po tom, co jsem se nacpala žloutkovým koláčem, jsem ale usnula asi v devět hodin. No a to byly naše portugalské Vánoce.
 
 Byla bych možná zklamaná, že jsem je neprožila nějakým jedinečným způsobem, abych se tím mohla chlubit na instagramu. Už jsem si ale uvědomila, že se nezmění celý můj živto jen protože změním místo.
+
 ![alt text](media/espinho.jpg)
 ![alt text](<media/vylet vanoce.jpeg>)
 
 Pět dnů po Vánocích jsme se vraceli domů. Už jsem se opravdu těšila, ale současně jsem měla z návratu i obavy. Přeci jen tohle byl můj velký odvážný krok. Ačkoli se mi od začátku zdálo, že se tím nic nezměnilo, pořád jsem se k odjezdu z domova na 3 měsíce musela odhodlávat. Něco mě k tomu dotáhlo, něco ve mně po tom asi moc toužilo. Něco co si třeba teď ještě neuvědomuju, ale začne se mi to odkrývat. 
-A tak to i skutečně bylo. V den, kdy jsme odjížděli a stáli na ulici před naším bytem, se mi začaly po tvářích ronit slzy
+A tak to i skutečně bylo. V den, kdy jsme odjížděli a stáli na ulici před naším bytem, se mi začaly po tvářích ronit slzy.
 
 
 Přínosy a uvědomění třetího měsíce:
