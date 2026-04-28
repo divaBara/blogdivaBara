@@ -1,7 +1,7 @@
 ---
 title: Lotyšsko - začátky bývají těžší
-lead: Na sluníčko, které sice občas na pár minut vylezlo, ale kdykoli mohlo být velmi rychle smeteno dešťovým mrakem, nemělo smysl čekat. Rozhodli jsme se tedy, že se v listopadu začleníme více do společnosti. Stalo se nejednou, že jsme se na meetup přihlásili a byli jsme jediní, kdo se dostavil. Možná jsme jen nepochopili portugalskou orientaci v čase. ...
-tags: [cestování, portugalsko]
+lead: Myslím, že začátky pro mě prostě bývají těžší, protože i tentokrát tady trochu tápu, a trochu se tady trápím. Lotyšsko je teď na jaře šedé, chladné a zamračené.Po dvou týdnech tu strávených jsem se dokonce začala ptát sama sebe, co mě to zase napadlo. Proč já jsem vlastně zase chtěla odejít do ciziny? Vždyť očividně vůbec nejsem žádný cestovatel. Ani si to cestování neužívám....
+tags: [cestování, lotyšsko]
 authors:
     - name: "Bára"
      
